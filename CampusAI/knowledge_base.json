@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "college_name": "Demo College of Engineering (Fictional)",
+    "label": "DEMONSTRATION DATA - fictional sample content, not from any real college.",
+    "version": "1.0",
+    "last_updated": "2026-10-29"
+  },
+  "entries": [
+    {
+      "id": "adm-eligibility",
+      "category": "Admission",
+      "question": "What is the eligibility criteria for admission?",
+      "answer": "[Demo data] Applicants to the first-year B.E./B.Tech programme must have passed the 12th standard with Physics and Mathematics, scored at least 50% in aggregate (45% for reserved categories), and hold a valid entrance exam score. Replace this text with your college's official criteria.",
+      "keywords": ["eligibility", "admission criteria", "who can apply", "minimum marks", "qualification", "entrance exam", "eligible for admission"],
+      "related": ["adm-documents", "sch-apply"]
+    },
+    {
+      "id": "adm-documents",
+      "category": "Admission",
+      "question": "Which documents are required for admission?",
+      "answer": "[Demo data] Bring originals and two photocopies of: 10th and 12th mark sheets, school leaving certificate, entrance exam scorecard, government photo ID, category certificate (if applicable), and four passport-size photographs.",
+      "keywords": ["documents", "certificates", "required papers", "admission documents", "what to bring", "document verification"],
+      "related": ["adm-eligibility"]
+    },
+    {
+      "id": "exam-hall-ticket",
+      "category": "Examinations",
+      "question": "How do I get my hall ticket for the exams?",
+      "answer": "[Demo data] Hall tickets are released on the student portal about one week before the exams begin. Log in, open the Examinations tab, and download the PDF. You must have cleared all dues and met the attendance requirement to receive one.",
+      "keywords": ["hall ticket", "admit card", "exam form", "download hall ticket", "exam portal", "exam registration"],
+      "related": ["att-minimum", "exam-revaluation"]
+    },
+    {
+      "id": "exam-revaluation",
+      "category": "Examinations",
+      "question": "How can I apply for revaluation or re-checking of my answer sheet?",
+      "answer": "[Demo data] Apply on the student portal within 5 working days of the result announcement. Select the subject, pay the per-subject fee, and submit. Revaluation results are normally published within two weeks.",
+      "keywords": ["revaluation", "re-evaluation", "recheck", "re-check", "photocopy of answer sheet", "challenge result", "marks correction", "exam paper", "paper checking"],
+      "related": ["exam-hall-ticket", "cal-academic"]
+    },
+    {
+      "id": "att-minimum",
+      "category": "Attendance",
+      "question": "What is the minimum attendance requirement?",
+      "answer": "[Demo data] Students need at least 75% attendance in each subject to be eligible for the end-semester exams. Students below this threshold may be detained unless the shortage is condoned.",
+      "keywords": ["minimum attendance", "75 percent", "detained", "attendance shortage", "attendance criteria", "low attendance", "eligible for exams", "attendance requirement"],
+      "related": ["att-medical", "exam-hall-ticket"]
+    },
+    {
+      "id": "att-medical",
+      "category": "Attendance",
+      "question": "How do I get attendance condoned for medical leave?",
+      "answer": "[Demo data] Submit a leave application with a medical certificate to your class coordinator within 3 days of rejoining. Condonation of up to 10% may be granted with approval from the Head of Department.",
+      "keywords": ["medical leave", "condonation", "sick leave", "leave application", "absent", "absence", "medical certificate"],
+      "related": ["att-minimum"]
+    },
+    {
+      "id": "cal-academic",
+      "category": "Timetable & Calendar",
+      "question": "Where can I find the academic calendar?",
+      "answer": "[Demo data] The academic calendar is published on the student portal (Calendar section) and on department notice boards at the start of each semester. It lists term dates, internal assessments, holidays and exam windows.",
+      "keywords": ["academic calendar", "semester dates", "holidays", "term dates", "exam dates", "important dates", "when does semester start"],
+      "related": ["cal-timetable", "exam-hall-ticket"]
+    },
+    {
+      "id": "cal-timetable",
+      "category": "Timetable & Calendar",
+      "question": "How do I find my class timetable?",
+      "answer": "[Demo data] Class timetables are posted on the student portal and department notice board in the first week of each semester. Lectures run Monday to Friday, 9:00 AM to 4:30 PM. Any changes are announced by your class coordinator.",
+      "keywords": ["timetable", "class schedule", "lecture timing", "class timing", "lecture hours", "time table", "my classes"],
+      "related": ["cal-academic"]
+    },
+    {
+      "id": "lib-hours",
+      "category": "Library",
+      "question": "What are the library opening hours?",
+      "answer": "[Demo data] The library is open Monday to Saturday, 8:30 AM to 7:00 PM, and closed on Sundays and public holidays. During exam weeks it stays open until 10:00 PM.",
+      "keywords": ["library hours", "library timing", "library open", "closing time", "library closed", "reading room", "library schedule"],
+      "related": ["lib-borrow"]
+    },
+    {
+      "id": "lib-borrow",
+      "category": "Library",
+      "question": "How do I borrow books from the library?",
+      "answer": "[Demo data] Show your valid student ID card at the issue counter. You can borrow up to 3 books for 14 days and renew once, online or at the counter. Late returns are fined Rs. 2 per day per book.",
+      "keywords": ["borrow books", "issue books", "library card", "return books", "renew", "late return fine", "overdue", "book limit", "how many books"],
+      "related": ["lib-hours"]
+    },
+    {
+      "id": "fac-overview",
+      "category": "Campus Facilities",
+      "question": "What facilities are available on campus?",
+      "answer": "[Demo data] The demo campus has a central library, computer labs, a canteen, a sports ground and indoor games room, campus-wide Wi-Fi, a medical room with a visiting doctor, and a student activity centre.",
+      "keywords": ["facilities", "campus facilities", "amenities", "canteen", "cafeteria", "gym", "sports", "computer lab", "medical room"],
+      "related": ["fac-wifi", "lib-hours"]
+    },
+    {
+      "id": "fac-wifi",
+      "category": "Campus Facilities",
+      "question": "How do I connect to the campus Wi-Fi?",
+      "answer": "[Demo data] Connect to the network 'DemoCampus-WiFi' and sign in with your student ID and the password from the student portal. For connection problems, email the IT helpdesk at helpdesk@example.edu.",
+      "keywords": ["wifi", "wi-fi", "internet", "network", "wifi password", "it helpdesk", "connect to wifi"],
+      "related": ["fac-overview"]
+    },
+    {
+      "id": "sch-apply",
+      "category": "Scholarships & Services",
+      "question": "What scholarships are available and how do I apply?",
+      "answer": "[Demo data] The demo college offers a merit scholarship for students with a CGPA of 8.5 or above, and supports applications to government scholarships through the national portal. Applications open in the first month of the academic year at the Student Section.",
+      "keywords": ["scholarship", "financial aid", "waiver", "merit scholarship", "apply for scholarship", "stipend", "bursary"],
+      "related": ["svc-desk", "adm-eligibility"]
+    },
+    {
+      "id": "svc-desk",
+      "category": "Scholarships & Services",
+      "question": "What student support services are available?",
+      "answer": "[Demo data] The Student Services Desk (weekdays, 10:00 AM to 4:00 PM) handles bonafide certificates, ID card re-issue and grievances. Free counselling is available by appointment.",
+      "keywords": ["bonafide certificate", "id card", "student services", "grievance", "counselling", "support", "lost id card", "complaint"],
+      "related": ["sch-apply"]
+    },
+    {
+      "id": "plc-prep",
+      "category": "Placements & Careers",
+      "question": "How can I prepare for campus placements?",
+      "answer": "[Demo data] The Training and Placement Cell runs aptitude, coding and mock-interview sessions from the 5th semester. Start by building a clear one-page resume, practising aptitude and data-structure problems regularly, and attending the cell's workshops.",
+      "keywords": ["placement preparation", "campus placement", "interview preparation", "aptitude", "mock interview", "placement cell", "training and placement", "resume"],
+      "related": ["plc-career"]
+    },
+    {
+      "id": "plc-career",
+      "category": "Placements & Careers",
+      "question": "Where can I get career guidance?",
+      "answer": "[Demo data] The Career Guidance Cell offers one-on-one sessions covering higher studies (GATE, GRE, CAT), internships and alumni mentoring. Book a slot at the Training and Placement Office.",
+      "keywords": ["career guidance", "career counselling", "higher studies", "gate", "internship", "alumni", "mentor", "career advice"],
+      "related": ["plc-prep"]
+    }
+  ]
+}
